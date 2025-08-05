@@ -71,12 +71,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" suppressHydrationWarning>
       <head />
-      <body
-        className={cn(
-          "bg-background min-h-screen antialiased",
-          inter.className
-        )}
-      >
+      <body className={cn("min-h-screen antialiased", inter.className)}>
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
