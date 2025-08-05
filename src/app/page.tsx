@@ -1,6 +1,7 @@
 import { Apple } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
+import { ModeToggle } from "@/components/mode-toggle"
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         Next.js 15 Tailwind v4 Shadcn Template
       </h1>
       <div className="flex flex-wrap items-center gap-2">
+        <ModeToggle />
         <Button size="lg">Large</Button>
         <Button size="lg" variant="outline">
           Large Icon <Apple />
